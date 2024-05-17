@@ -18,6 +18,7 @@ function App() {
         <Route path="/detail" element={<DetailView />} />
         <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
+        {/* <Route path="/contact" element={<ContactUs />} /> */}
       </Routes>
     </BrowserRouter>
   );
